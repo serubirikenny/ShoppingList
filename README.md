@@ -7,4 +7,5 @@ This contains the UML diagram for the application.
 ## UI folder 
 This contains HTML and CSS styles that have been compiled by SCSS.
 
-## Wireframes folder contains the mockups of how the shopping application is supposed to look like after completion.
+## Wireframes folder 
+This contains the mockups of how the shopping application is supposed to look like after completion.
