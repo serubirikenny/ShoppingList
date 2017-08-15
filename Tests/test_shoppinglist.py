@@ -4,6 +4,7 @@ class ShopTestCase(unittest.TestCase):
     def setUp(self):
         self.user = User()
 
+
     def test_shopping_list_initialy_empty(self):
         self.assertEqual(self.shop.shopping_lists, {})
 
