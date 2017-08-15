@@ -4,10 +4,15 @@ An application that allows users keeping track of their shopping items and share
 ## Features of the application:
 
 -User Sign in.
--User Sign up. 
+
+-User Sign up.
+
 -Create Shopping list.
+
 -Add shopping list items.
+
 -Edit Items.
+
 -Delete Items.
 
 
