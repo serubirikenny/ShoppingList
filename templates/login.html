@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Shopping List</title>
+		<link href="../static/styles/style.css" rel="stylesheet">
+	</head>
+	<body>		
+<! Text box prompting user to provide Email>
+		<div class="content">
+<form id="login" name="login" method="POST" action="">
+<p>Don't have an account? Sign up <a href="/signup">here</a></p>	
+{% if error %}
+	<p class=error><strong>Error:</strong>{{ error }}</p>
+	{% endif %}		
+    <label><b>E-mail</b></label>
+    <input type="text"  name="email" /> <br />
+<! Text box requiring a user to input a password>
+
+	
+    <label><b>Password</b></label>
+    <input type="password"  name="password" /> <br />
+	
+<! Login button one clicks after inputing the details>
+    <button type="submit">Login</button>
+</form>
+
+		</div>
+
+	</body>
+</html>
