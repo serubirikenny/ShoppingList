@@ -19,7 +19,7 @@ An application that allows users keeping track of their shopping items and share
 ## Designs folder
 This contains the UML diagram for the application.
 
-## UI folder 
+## UI folder.
 This contains HTML and CSS styles that have been compiled by SCSS.
 
 ## Wireframes folder 
