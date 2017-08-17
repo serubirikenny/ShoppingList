@@ -16,7 +16,7 @@ An application that allows users keeping track of their shopping items and share
 -Delete Items.
 
 
-## Designs folder
+## Designs folder.
 This contains the UML diagram for the application.
 
 ## UI folder.
