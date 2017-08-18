@@ -3,6 +3,8 @@ An application that allows users keeping track of their shopping items and share
 
 [![Build Status](https://travis-ci.org/serubirikenny/ShoppingList.svg?branch=master)](https://travis-ci.org/serubirikenny/ShoppingList)
 
+[![Coverage Status](https://coveralls.io/repos/github/serubirikenny/ShoppingList/badge.svg?branch=master)](https://coveralls.io/github/serubirikenny/ShoppingList?branch=master)
+
 ## Features of the application:
 
 -User Sign in.
