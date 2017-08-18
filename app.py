@@ -9,9 +9,6 @@ users = {'admin': 'admin', 'art': 'art'}
 user = User()
 
 
-# @app.route('/')
-# def home():
-#     return render_template('index.html')
 
 
 @app.route('/index')
