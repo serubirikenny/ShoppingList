@@ -1,15 +1,16 @@
 Language: Python
-cache:pip
+cache:
+- pip
 python:
 "3.5"
 install:
-pip install coverage
-pip install coveralls
-pip install -r requirements.txt
+- pip install coverage
+- pip install coveralls
+- pip install -r requirements.txt
 script:
-nosetests
+- nosetests
 after_success:
-coverage report
-coveralls
+- coverage report
+- coveralls
 
 
