@@ -68,18 +68,25 @@ img{
   	height: auto;
 	}
 }
+
+body{
+        background: url(../static/images/shop.jpg) no-repeat;
+    padding: 85px;
+    height: -webkit-fill-available;
+
+}
  
 
 .content {
-	text-align: center;
-	background:yellow;
-	width: 500px;
-	padding-bottom: 120px;
-	border-top: none;
-	border-right: 2px solid #000;
-	border-left: 2px solid #000;
-	border-bottom: 2px solid #000;
-	margin: 0 auto;
+    text-align: center;
+    background: yellow;
+    width: 500px;
+    padding-top: 22px;
+    padding-bottom: 120px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;;
 	}
 	
 
@@ -107,10 +114,6 @@ img{
 	}
 }
 
-#login{
-	border-top: 2px solid #000;
-    	margin-top: 44px;
-}
 
 #list-item{
 	input{
