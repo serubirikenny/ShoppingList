@@ -3,6 +3,7 @@ An application that allows users keeping track of their shopping items and share
 
 [![Build Status](https://travis-ci.org/serubirikenny/ShoppingList.svg?branch=master)](https://travis-ci.org/serubirikenny/ShoppingList)
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
 [![Coverage Status](https://coveralls.io/repos/github/serubirikenny/ShoppingList/badge.svg?branch=master)](https://coveralls.io/github/serubirikenny/ShoppingList?branch=master)
 
 ## Features of the application:
