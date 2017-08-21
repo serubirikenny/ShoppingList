@@ -1,4 +1,4 @@
-Language: Python
+language: python
 cache:
 - pip
 python:
