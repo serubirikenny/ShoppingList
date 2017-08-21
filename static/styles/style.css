@@ -90,7 +90,12 @@ img {
 
 .construction {
   color: #000; }
+body{
+    background: url(../images/shop.jpg) no-repeat;
+    padding: 85px;
+    height: -webkit-fill-available;
 
+}
 button {
   background: red;
   border: 1px solid #000;
