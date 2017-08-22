@@ -89,7 +89,7 @@ def editlistitem():
     if request.method == 'POST':
         l_name = request.form['list_name']
         o_name = request.form['item_name']
-	ni_name = request.form[ 'new_item_name']
+	ni_name = request.form['new_item_name']
 	
         #flash("You have succesfully changed {} {}".format(list_name, items))
 
