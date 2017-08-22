@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SHOPPING LIST</title>
+	<link href="../static/styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header-wrapper"><header id="navigation">
+        <div class="left"><h1>SHOPPING LIST</h1></div>
+            <div class="right">
+                <ul>
+                    
+                    <li><a href="/logout">Logout</a></li>
+                </ul>
+        </div>
+    </header>
+    </div>
+    <div class='content'>
+	<section id="content-add" >
+        <h2>Edit list</h2>
+				<form id="add" name="login" method="POST" action="">
+					{% if error %}
+					<p class=error><strong>Error:</strong>{{ error }}</p>
+					{% endif %}
+						<p>Back to lists<a href="/index"> Click here</a></p>
+						<input type="text" name='previous_name' />
+						<input type="text" name='new_name' />
+						<input id="btn" type="submit" value="add"/>
+				</form>
+</section>
+    </div>
+
+</body>
+</html>
