@@ -93,9 +93,9 @@ def editlistitem():
 	
         #flash("You have succesfully changed {} {}".format(list_name, items))
 
-	if l_name and o_name and ni_name:
-		user.edit_shopping_list_item(l_name, o_name,ni_name )
-		return redirect(url_for('index'))
+		if l_name and o_name and ni_name:
+			user.edit_shopping_list_item(l_name, o_name,ni_name )
+			return redirect(url_for('index'))
 	return render_template('editlist_item.html', error=error)
 
 
