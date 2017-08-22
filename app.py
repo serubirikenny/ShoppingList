@@ -85,18 +85,18 @@ def editlist():
 
 @app.route('/editlistitem', methods=['GET', 'POST'])
 def editlistitem():
-    error = None
-    if request.method == 'POST':
-        l_name = request.form['list_name']
-        o_name = request.form['item_name']
-	ni_name = request.form['new_item_name']
+	error = None
+	if request.method == 'POST':
+		l_name = request.form['list_name']
+		o_name = request.form['item_name']
+		ni_name = request.form['new_item_name']
 	
         #flash("You have succesfully changed {} {}".format(list_name, items))
 
-        if l_name and o_name and ni_name:
-            user.edit_shopping_list_item(l_name, o_name,ni_name )
-            return redirect(url_for('index'))
-    return render_template('editlist_item.html', error=error)
+	if l_name and o_name and ni_name:
+		user.edit_shopping_list_item(l_name, o_name,ni_name )
+		return redirect(url_for('index'))
+	return render_template('editlist_item.html', error=error)
 
 
 
