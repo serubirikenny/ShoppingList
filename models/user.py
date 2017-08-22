@@ -92,5 +92,21 @@ class User(object):
             return 'item not in list'
         return self.shopping_lists
 
+    def edit_shopping_list_item(self, list_name, item_name, new_name):
+        '''
+        creates shopping list name
+        '''
+        if list_name in self.shopping_lists.keys():
+            for item in self.shopping_lists[list_name]:
+                if item == item_name:
+                    self.shopping_lists[list_name].remove(item)
+                    self.shopping_lists[list_name].append(new_name)
+                else:
+                    return 'Item not in list'
+        else:
+            return "list name doesn't exist"
+        return self.shopping_lists
+
+
     def __repr__(self):
         return 'user shopping lists are: ' + ', '.join(name for name in self.shopping_lists)
