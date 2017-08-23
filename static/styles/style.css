@@ -50,7 +50,7 @@ img {
 
 .content {
   text-align: center;
-  background: yellow;
+  background: rgba(208, 209, 191, 0.4);
   width: 500px;
   padding-bottom: 120px;
   border-top: none;
@@ -97,7 +97,7 @@ body{
 
 }
 button {
-  background: red;
+  background: rgba(208, 209, 191, 0.7);
   border: 1px solid #000;
   width: 100px;
   box-shadow: 6px 1px 11px #000;
@@ -105,5 +105,21 @@ button {
   color: #fff;
   font-family: arial;
   font-size: 15px; }
+
+  ul{
+    list-style: none;
+  }
+
+   a{
+    text-decoration: none;
+  }
+
+  .side{
+    padding-right: 8px;
+  }
+
+  .item{
+    padding-right: 15px;
+  }
 
 /*# sourceMappingURL=style.css.map */
