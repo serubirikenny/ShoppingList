@@ -12,9 +12,12 @@
 
 <form id="list-item" name="list-item" method="">
 <select name="List">
-  <option value="volvo">List 1</option>
-  <option value="saab">List 2</option>
-  <option value="mercedes">List 3</option>
+	{% for item in lists.keys()%}
+					 <option value=" {{item}}">{{item}}</option>
+				{% endfor %}
+
+
+
 </select>
 	
 <br />
