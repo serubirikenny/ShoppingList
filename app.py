@@ -4,7 +4,7 @@ from models.user import User
 
 app = Flask(__name__)
 
-app.secret_key = 'elgordo123456789'
+app.secret_key = 'justforjust'
 users = {'admin': 'admin', 'art': 'art'}
 user = User()
 
@@ -97,8 +97,6 @@ def editlistitem():
 			user.edit_shopping_list_item(l_name, o_name,ni_name )
 			return redirect(url_for('index'))
 	return render_template('editlist_item.html', error=error)
-
-
 
 @app.route('/logout')
 def logout():
