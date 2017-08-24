@@ -83,10 +83,11 @@ body{
     width: 500px;
     padding-top: 22px;
     padding-bottom: 120px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;;
+    border-top: 1px solid rgba(208, 209, 191, 0.4);
+    border-right: 1px solid rgba(208, 209, 191, 0.4);
+    border-left: 1px solid rgba(208, 209, 191, 0.4);
+    border-bottom: 1px solid rgba(208, 209, 191, 0.4);
+    margin: 0 auto;
 	}
 	
 
@@ -141,4 +142,38 @@ button{
 	font-family: arial;
 	font-size: 15px;
 }
+
+  ul{
+    list-style: none;
+  }
+
+   a{
+    text-decoration: none;
+  }
+
+  .side{
+    
+    background: red;
+    color: black;
+    padding: 5px 9px;
+    font-family: opensans;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right:5px;
+  }
+
+  .item{
+    padding-right: 15px;
+  }
+
+footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	bottom: 0;
+}
+
+
+
 

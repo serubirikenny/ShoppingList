@@ -48,15 +48,21 @@ img {
     width: 380px;
     height: auto; }
 
+body {
+  background: url(../images/shop.jpg) no-repeat;
+  padding: 85px;
+  height: -webkit-fill-available; }
+
 .content {
   text-align: center;
   background: rgba(208, 209, 191, 0.4);
   width: 500px;
+  padding-top: 22px;
   padding-bottom: 120px;
-  border-top: none;
-  border-right: 2px solid #000;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-top: 1px solid rgba(208, 209, 191, 0.4);
+  border-right: 1px solid rgba(208, 209, 191, 0.4);
+  border-left: 1px solid rgba(208, 209, 191, 0.4);
+  border-bottom: 1px solid rgba(208, 209, 191, 0.4);
   margin: 0 auto; }
 
 #login select, #login input, #sign-up select, #sign-up input {
@@ -75,10 +81,6 @@ img {
     background: #fff;
     padding: 0px 8px 8px; }
 
-#login {
-  border-top: 2px solid #000;
-  margin-top: 44px; }
-
 #list-item input {
   border: 1px solid grey;
   width: 46px;
@@ -90,12 +92,7 @@ img {
 
 .construction {
   color: #000; }
-body{
-    background: url(../images/shop.jpg) no-repeat;
-    padding: 85px;
-    height: -webkit-fill-available;
 
-}
 button {
   background: rgba(208, 209, 191, 0.7);
   border: 1px solid #000;
@@ -106,20 +103,29 @@ button {
   font-family: arial;
   font-size: 15px; }
 
-  ul{
-    list-style: none;
-  }
+ul {
+  list-style: none; }
 
-   a{
-    text-decoration: none;
-  }
+a {
+  text-decoration: none; }
 
-  .side{
-    padding-right: 8px;
-  }
+.side {
+  background: red;
+  color: black;
+  padding: 5px 9px;
+  font-family: opensans;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 5px; }
 
-  .item{
-    padding-right: 15px;
-  }
+.item {
+  padding-right: 15px; }
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
