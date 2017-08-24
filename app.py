@@ -76,7 +76,7 @@ def editlist():
     if request.method == 'POST':
         p_name = request.form['previous_name']
         n_name = request.form['new_name']
-        #flash("You have succesfully changed {} {}".format(list_name, items))
+
 
         if p_name and n_name:
             user.update_shopping_list(p_name, n_name)
@@ -86,19 +86,16 @@ def editlist():
 @app.route('/editlistitem', methods=['GET', 'POST'])
 def editlistitem():
     error = None
+    l_name = ''
     if request.method == 'POST':
         l_name = request.form['list_name']
         o_name = request.form['item_name']
-	ni_name = request.form[ 'new_item_name']
-	
-        #flash("You have succesfully changed {} {}".format(list_name, items))
+        ni_name = request.form['new_item_name']
 
-        if l_name and o_name and ni_name:
-            user.edit_shopping_list_item(l_name, o_name,ni_name )
-            return redirect(url_for('index'))
+    if l_name and o_name and ni_name:
+	user.edit_shopping_list_item(l_name, o_name, ni_name)
+	return redirect(url_for('index'))
     return render_template('editlist_item.html', error=error)
-
-
 
 @app.route('/logout')
 def logout():
