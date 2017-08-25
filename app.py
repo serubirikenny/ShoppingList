@@ -27,7 +27,7 @@ def register():
         flash("You have succesfully been registered {} {}".format(name, password))
 
         if name and password:
-            users[name] = password
+            users[email] = password
             return redirect(url_for('login'))
     return render_template('signup.html', error=error)
 
